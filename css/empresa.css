@@ -1,0 +1,165 @@
+html, body {
+    background-color: black;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0%;
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+    height: 80%;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1000px) {
+    nav {
+        width: 100%;
+    } 
+}
+
+#logo {
+    width: 15%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.nav1 {
+    padding: 15px;
+    color: white;
+    background-color: #2c2c2c;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+.nav1:hover {
+    padding: 15px;
+    color: black;
+    background-color: #F1DB12;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+.nav2 {
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+.nav2:hover {
+    padding: 15px;
+    color: black;
+    background-color: #F1DB12;
+    border-radius: 5px;
+}
+
+.nav3 {
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+.nav3:hover {
+    padding: 15px;
+    color: black;
+    background-color: #F1DB12;
+    border-radius: 5px;
+}
+
+.nav4 {
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+.nav4:hover {
+    padding: 15px;
+    color: black;
+    background-color: #F1DB12;
+    border-radius: 5px;
+}
+
+.nav5 {
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+.nav5:hover {
+    padding: 15px;
+    color: black;
+    background-color: #F1DB12;
+    border-radius: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    height: 700%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+  }
+  
+  #footer-img {
+    width: 22%;
+    height: 22%;
+  }
+  
+  .nav11 {
+    display: grid;
+  }
+  
+  #titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #titulo:hover {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #F1DB12;
+    cursor: pointer;
+  }
+  
+  #footer-p {
+    color: white;
+  }
+  
+  .nav11 {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .nav11:hover {
+    color: #F1DB12;
+    cursor: pointer;
+  }
